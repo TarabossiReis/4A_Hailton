@@ -10,8 +10,8 @@
 <AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <TextField fx:id="txtNunero1" layoutX="36.0" layoutY="34.0" />
-      <TextField fx:id="txtNunero2" layoutX="36.0" layoutY="116.0" />
+      <TextField fx:id="txtNumero1" layoutX="36.0" layoutY="34.0" />
+      <TextField fx:id="txtNumero2" layoutX="36.0" layoutY="116.0" />
       <TextField fx:id="txtResultado" layoutX="36.0" layoutY="197.0" />
       <Label layoutX="36.0" layoutY="14.0" text="Numero 1" />
       <Label layoutX="36.0" layoutY="99.0" text="Numero 2" />
