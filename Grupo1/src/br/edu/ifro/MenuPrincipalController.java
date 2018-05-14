@@ -29,11 +29,10 @@ public class MenuPrincipalController implements Initializable {
     
     @FXML
     private Button btnSomar;
+
     @FXML
     private Label label;
-    
-
-    
+ 
     @FXML
     private void soma (ActionEvent event) {
         Double num1 = Double.parseDouble(txtNumero1.getText());
@@ -53,7 +52,7 @@ public class MenuPrincipalController implements Initializable {
         try{
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("Aluno.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(),900,682);
+            Scene scene = new Scene(fxmlLoader.load(),400,400);
             Stage stage = new Stage();
             stage.setTitle("Cadastrar Cliente");
             stage.setScene(scene);
